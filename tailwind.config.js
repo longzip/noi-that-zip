@@ -8,7 +8,11 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Avo', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio')

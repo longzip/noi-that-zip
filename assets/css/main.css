@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Avo;
+  src: url(../fonts/UTM-Avo.ttf);
+}
+
+@layer base {
+  h2 {
+    @apply mb-8 text-2xl font-bold md:text-3xl;
+  }
+  h3 {
+    @apply mb-4 text-xl font-bold;
+  }
+  h4 {
+    @apply mb-2 font-bold;
+  }
+}
