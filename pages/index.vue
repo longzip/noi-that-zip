@@ -8,5 +8,6 @@
     <HeThongShowroom />
     <TinTuc />
     <NoiBat />
+    <ZipFooter />
   </div>
 </template>

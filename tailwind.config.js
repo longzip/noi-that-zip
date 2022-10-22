@@ -13,6 +13,7 @@ module.exports = {
         sans: ['Avo', 'sans-serif'],
       },
     },
+    
   },
   plugins: [
     require('@tailwindcss/aspect-ratio')
